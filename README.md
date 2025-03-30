@@ -14,5 +14,6 @@ Use this to select and install roles interactively:
 .\InstaladorRoles.ps1
 
 ### Run the updater
-# To only update the secondary script based on currently installed roles
+To only update the secondary script based on currently installed roles
+``powershell
 .\InstaladorRoles.ps1 -Actualizar
